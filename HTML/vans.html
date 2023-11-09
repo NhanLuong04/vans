@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="vans.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <!-- <tittle>Vans Việt Nam - Trải Nghiệm Vans Store Ngay Tại Nhà</tittle> -->
+    </head>
+    <body>
+    <!-- <header> -->
+    <div class="menu">
+        <div class="top-menu">
+            <div class="top-menu-left">
+                <span> <a href="tel:cskh.vans@gmail.com">cskh.vans@gmail.com</a></span>
+                <span> / </span>
+                <span> <a href="tel:0866956907">0866956907</a></span>
+            </div>
+            <div class="top-menu-right">
+                <span> <a href="Dangki.html">Đăng ký</a></span>
+                <span> / </span>
+                <span> <a href="Dangnhap.html">Đăng nhập</a></span>
+            </div>
+        </div>
+        <div class="bot-menu">
+            <div class="bot-menu-left">
+                <a href="vans.html"> <img src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/logo.png?1693938199648" alt="vans logo"></a>
+            </div>
+            <div class="bot-menu-mid">
+                <div class="menu-9-items">
+                    <div class="menu-5-items">
+                        <ul> 
+                            <li> <span> <a href="pro-cate.html">ALL VANS</a> </span> </li>
+                            <li> 
+                                <span>
+                                <a href="#">SHOES</a>
+                                <div class="dropdown">
+                                    <a href="#">VANS CLASSIC</a>
+                                    <a href="#">VANS VAULT</a>
+                                    <a href="#">VANS OLD SCHOOL</a>
+                                    <a href="#">VANS SLIP-ON</a>
+                                    <a href="#">VANS AUTHENTIC</a>
+                                    <a href="#">VANS SK8</a>
+                                    <a href="#">VANS ERA</a>
+                                </div>
+                                </span>
+                            </li>
+                            <li> <a href="#">NEW ARRIVALS</a></li>
+                            <li> 
+                                <a href="#">ACCESSORIES</a>
+                                <div class="dropdown">
+                                    <a href="#">BACKPACK</a>
+                                    <a href="#">VANS WALLET</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">COLLECTIONS</a>
+                                <div class="dropdown">
+                                    <a href="#">CLASSIC</a>
+                                    <a href="#">CHECKERBOARD</a>
+                                    <a href="#">VANS VAULT</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-4-items">
+                        <ul> 
+                            <li> <a href="#">SALE OFF</a></li>
+                            <li> <a href="#">SIZE CHART</a></li>
+                            <li> <a href="#">ABOUT US</a></li>
+                            <li> <a href="#">LATEST VANS NEWS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-menu-right">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <span>0</span>
+            </div>
+        </div>
+    </div>
+    <div class="cartTab">
+        <!-- <div class="listCard">
+            <img class="img-sp" src="https://bizweb.dktcdn.net/thumb/compact/100/140/774/products/vans-authentic-classic-black-vn000ee3blk-1.png">
+            <div class="inf-pro">
+                <div class="name-pro">
+                    <a href="Product-details.html">VANS AUTHENTIC CLASSIC BLACK/WHITE</a>
+                </div>
+                <span class="price">0đ</span>
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <span>0</span>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+            <div class="xoa">x</div>
+        </div> -->
+        <div class="thanh-tien">
+            <span>Tổng cộng: </span>
+            <span class="total">0đ</span>
+        </div>
+        <div class="btn">
+            <button class="GH">Giỏ hàng</button><br>
+            <button class="TT">Thanh toán</button>
+        </div>
+    </div>
+        
+    <!-- </header> -->
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/slider_1.jpg?1693938199648" alt="" style="height: 500px;">
+            </div>
+            <div class="item">
+                <img src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/slider_2.jpg?1693938199648" alt="" style="height: 500px;">
+            </div>
+            <div class="item">
+                <img src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/slider_3.jpg?1693938199648" alt="" style="height: 500px;">
+            </div>
+            <div class="item">
+                <img src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/slider_4.jpg?1693938199648" alt="" style="height: 500px;">
+            </div>
+            <div class="item">
+                <img src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/slider_5.jpg?1693938199648" alt="" style="height: 500px;">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev">></button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div id="product-menu">
+        <aside class="aside-left"></aside>
+        <div class="containers">
+            <div class="pro-class">                    
+                <div class="content-classic">
+                    <h1><a href="#">CLASSIC</a></h1>
+                    <p>Bộ sưu tập cổ điển <br> Những phiên bản bất tử <br> từ năm 1966</p>
+                    <a class="xemthem" href="#">Xem thêm</a>
+                </div>
+                <div class="van-classic">                  
+                    <div class="Pro-menu">
+                        <div class="vans1">
+                            <div class=block>
+                                <a href="Product-details.html"><img class="classic" src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/vans-authentic-classic-black-vn000ee3blk-2.png?v=1625925620597"></a>
+                                <button class="nut">Tùy chọn</button>
+                            </div>                       
+                            <div class="Pro-view">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-authentic-classic-black-vn000ee3blk-1.png?v=1625925617317">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-authentic-classic-black-vn000ee3blk-2.png?v=1625925620597">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-authentic-classic-black-vn000ee3blk-3.png?v=1625925623543">                       
+                            </div>
+                            <div class="Pro-name"><a href="Product-details.html">VANS AUTHENTIC CLASSIC..</a><br>VANS</br></div>
+                            <div class="Pro-cost">1.450.000</div> 
+                            <span class="Pro-costUnit">₫</span>
+                        </div>                          
+                    </div>
+                    <div class="Pro-menu">
+                        <div class="vans2">
+                            <div class=block>
+                                <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/vans-old-skool-black-white-vn000d3hy28-2.jpg?v=1661757331440"></a>
+                                <button class="nut">Tùy chọn</button>   
+                            </div> 
+                            <div class="Pro-view">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-black-white-vn000d3hy28-1.jpg?v=1661757331440">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-black-white-vn000d3hy28-3.jpg?v=1661757331440">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-black-white-vn000d3hy28-2.jpg?v=1661757331440">                        
+                            </div>
+                                <div class="Pro-name"><a href="Product-details.html">VANS OLD SKOOL CLASSIC..</a><br>VANS</br></div>
+                                <div class="Pro-cost">1.850.000</div>
+                                <span class="Pro-costUnit">₫</span>
+                            </div> 
+                        </div>
+                    <div class="Pro-menu">
+                        <div class="vans3">
+                            <div class=block>
+                                <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/vans-slip-on-checkerboard-black-off-white-vn000eyebww-2.png?v=1625923440187"></a>
+                                <button class="nut">Tùy chọn</button> 
+                            </div>                       
+                            <div class="Pro-view">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-slip-on-checkerboard-black-off-white-vn000eyebww-1.png?v=1625923436960">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-slip-on-checkerboard-black-off-white-vn000eyebww-2.png?v=1625923440187">
+                                <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-slip-on-checkerboard-black-off-white-vn000eyebww-3.png?v=1625923334863">                         
+                            </div>
+                            <div class="Pro-name"><a href="Product-details.html">VANS CHECKERBOORD CLIP-ON..</a><br>VANS</br></div>
+                            <div class="Pro-cost">1.450.000</div>
+                            <span class="Pro-costUnit">₫</span>
+                        </div>
+                    </div>                          
+                        <!-- <div class="Pro-menu">
+                            <div class="vans2">
+                                <div class=block>
+                                    <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/vans-old-skool-classic-true-white-vn000d3hw00-1.jpg?v=1625921894730"></a>
+                                    <button class="nut">Tùy chọn</button>   
+                                </div> 
+                                <div class="Pro-view">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-true-white-vn000d3hw00-1.jpg?v=1625921894730">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-true-white-vn000d3hw00-2.jpg?v=1625921897390">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-true-white-vn000d3hw00-3.jpg?v=1625921899803">                        
+                                </div>
+                                    <div class="Pro-name"><a href="Product-details.html">VANS CANVAS OLD SKOOL..</a><br>VANS</br></div>
+                                    <div class="Pro-cost">1.750.000₫</div>
+                                </div> 
+                        </div>
+                        <div class="Pro-menu">
+                            <div class="vans2">
+                                <div class=block>
+                                    <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/vans-old-skool-classic-black-black-vn000d3hbka-1.jpg?v=1625922466500"></a>
+                                    <button class="nut">Tùy chọn</button>   
+                                </div> 
+                                <div class="Pro-view">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-black-black-vn000d3hbka-1.jpg?v=1625922466500">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-black-black-vn000d3hbka-2.jpg?v=1625922469193">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-black-black-vn000d3hbka-3.jpg?v=1625922472577">                        
+                                </div>
+                                    <div class="Pro-name"><a href="Product-details.html">VANS OLD SKOOL CLASSIC..</a><br>VANS</br></div>
+                                    <div class="Pro-cost">1.750.000₫</div>
+                                </div> 
+                        </div>
+                        <div class="Pro-menu">
+                            <div class="vans2">
+                                <div class=block>
+                                    <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/vans-old-skool-classic-navy-white-vn000d3hnvy-1.jpg?v=1625922070377"></a>
+                                    <button class="nut">Tùy chọn</button>   
+                                </div> 
+                                <div class="Pro-view">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-navy-white-vn000d3hnvy-1.jpg?v=1625922070377">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-navy-white-vn000d3hnvy-2.jpg?v=1625922077960">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-old-skool-classic-navy-white-vn000d3hnvy-3.jpg?v=1625922080743">                        
+                                </div>
+                                    <div class="Pro-name"><a href="Product-details.html">VANS OLD SKOOL CLASSIC..</a><br>VANS</br></div>
+                                    <div class="Pro-cost">1.750.000₫</div>
+                                </div> 
+                        </div>
+                        <div class="Pro-menu">
+                            <div class="vans2">
+                                <div class=block>
+                                    <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/vans-sk8-hi-classic-black-white-vn000d5ib8c-1.jpg?v=1625938546987"></a>
+                                    <button class="nut">Tùy chọn</button>   
+                                </div> 
+                                <div class="Pro-view">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-sk8-hi-classic-black-white-vn000d5ib8c-1.jpg?v=1625938546987">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-sk8-hi-classic-black-white-vn000d5ib8c-2.jpg?v=1625938551507">
+                                    <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/vans-sk8-hi-classic-black-white-vn000d5ib8c-3.jpg?v=1625938555997">                        
+                                </div>
+                                    <div class="Pro-name"><a href="Product-details.html">VANS CLASSIC SK8-HI..</a><br>VANS</br></div>
+                                    <div class="Pro-cost">1.950.000₫</div>
+                                </div> 
+                        </div>              -->
+                </div>
+            </div>
+            <div class="pro-new-arrivals">
+                <div class="content-arr">
+                    <h1><a href="#">NEW ARRIVAL</a></h1>
+                    <p>Bộ sưu tập sản phẩm mới</p>
+                    <a class="xemthem" href="#">Xem thêm</a>
+                </div>
+                <div class="Pro-arr">
+                    <div class="vans4">
+                        <div class=block>
+                            <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-36-dx-grey-vn0a4bw3bm7-1.jpg?v=1694541017717"></a>
+                            <button class="nut">Tùy chọn</button>
+                        </div>                                                 
+                        <div class="Pro-view">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-36-dx-grey-vn0a4bw3bm7-1.jpg?v=1694541017717">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-36-dx-grey-vn0a4bw3bm7-2.jpg?v=1694541022740">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-36-dx-grey-vn0a4bw3bm7-3.jpg?v=1694541029673">                         
+                        </div>
+                        <div class="Pro-name"><a href="Product-details.html">Giày VANS OLD SKOOL 36 DX...</a><br>VANS</br></div>
+                        <div class="Pro-cost">2.400.000</div>
+                        <span class="Pro-costUnit">₫</span>
+                    </div>
+                </div>
+                <div class="Pro-arr">
+                    <div class="vans5">
+                        <div class=block>
+                            <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-style-36-marshmallow-dress-blue-vn0a3dz3ke6-1.jpg?v=1690653315343"></a>
+                            <button class="nut">Tùy chọn</button>
+                        </div>                                          
+                        <div class="Pro-view">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-style-36-marshmallow-dress-blue-vn0a3dz3ke6-1.jpg?v=1690653315343">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-style-36-marshmallow-dress-blue-vn0a3dz3ke6-2.jpg?v=1690653307717">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-style-36-marshmallow-dress-blue-vn0a3dz3ke6-3.jpg?v=1690653307717">                         
+                        </div>
+                        <div class="Pro-name"><a href="Product-details.html">Giày VANS OLD SKOOL STYLE 36...</a><br>VANS</br></div>
+                        <div class="Pro-cost">1.850.000</div>
+                        <span class="Pro-costUnit">₫</span>
+                    </div>
+                </div>
+                <div class="Pro-arr">
+                    <div class="vans6">
+                        <div class=block>
+                            <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-style-136-decon-vr3-sf-marshmallow-black-vn0a4bx9kig-1.jpg?v=1690653401133"></a> 
+                            <button class="nut">Tùy chọn</button>                   
+                        </div>                    
+                        <div class="Pro-view">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-style-136-decon-vr3-sf-marshmallow-black-vn0a4bx9kig-1.jpg?v=1690653401133">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-style-136-decon-vr3-sf-marshmallow-black-vn0a4bx9kig-2.jpg?v=1690653392783">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-style-136-decon-vr3-sf-marshmallow-black-vn0a4bx9kig-3.jpg?v=1690653392783">                         
+                        </div>
+                        <div class="Pro-name"><a href="Product-details.html">Giày VANS OLD SKOOL 36 DX...</a><br>VANS</br></div>
+                        <div class="Pro-cost">2.400.000</div>
+                        <span class="Pro-costUnit">₫</span>
+                    </div>
+                </div>                  
+            </div>
+            <div class="pro-best-seller">
+                <div class="content-sell">
+                    <h1><a href="#">BEST SELLER</a></h1>
+                    <p>Các sản phẩm bán chạy nhất<br> Được Fans hâm mộ yêu thích nhất<br> Chỉ có tại hệ thống Vans Việt Nam</p>
+                    <a class="xemthem" href="#">Xem thêm</a>
+                </div>
+                <div class="Pro-sell">
+                    <div class="vans7">
+                        <div class="block">
+                            <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-vans-club-white-vn0005ufyy2-1.jpg?v=1687284667910"></a> 
+                            <button class="nut">Tùy chọn</button>                   
+                        </div>                 
+                        <div class="Pro-view">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-vans-club-white-vn0005ufyy2-1.jpg?v=1687284667910">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-vans-club-white-vn0005ufyy2-2.jpg?v=1687284669543">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-vans-club-white-vn0005ufyy2-3.jpg?v=1687284671747">                         
+                        </div>
+                        <div class="Pro-name"><a href="Product-details.html">VANS OLD SKOOL VANS CLUB...</a><br>VANS</br></div>
+                        <div class="Pro-cost">2.700.000</div>
+                        <span class="Pro-costUnit">₫</span>
+                    </div>
+                    </div>
+                    <div class="Pro-sell">
+                    <div class="vans8">
+                        <div class=block>
+                            <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-skate-old-skool-black-white-vn0a5fcby28-1.jpg?v=1690477393333"></a>                
+                            <button class="nut">Tùy chọn</button>
+                        </div>
+                                
+                        <div class="Pro-view">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-skate-old-skool-black-white-vn0a5fcby28-1.jpg?v=1690477393333">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-skate-old-skool-black-white-vn0a5fcby28-2.jpg?v=1690477394790">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-skate-old-skool-black-white-vn0a5fcby28-3.jpg?v=1690477395860">                         
+                        </div>
+                        <div class="Pro-name"><a href="Product-details.html">Giày VANS SKATE OLD SKOOL...</a><br>VANS</br></div>
+                        <div class="Pro-cost">2.200.000</div>
+                        <span class="Pro-costUnit">₫</span>
+                    </div>
+                    </div>
+                    <div class="Pro-sell">
+                    <div class="vans9">
+                        <div class=block>
+                            <a href="Product-details.html"><img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-classic-eco-theory-checkerboard-vn0a54f4705-1.jpg?v=1660747405190"></a>
+                            <button class="nut">Tùy chọn</button>
+                        </div>
+                                                
+                        <div class="Pro-view">
+                            <img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/products/giay-vans-old-skool-classic-eco-theory-checkerboard-vn0a54f4705-1.jpg?v=1660747405190">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-classic-eco-theory-checkerboard-vn0a54f4705-2.jpg?v=1660747406210">
+                            <img src="https://bizweb.dktcdn.net/thumb/small/100/140/774/products/giay-vans-old-skool-classic-eco-theory-checkerboard-vn0a54f4705-3.jpg?v=1660747406960">                         
+                        </div>
+                        <div class="Pro-name"><a href="Product-details.html">VANS OLD SKOOL CLASSIC ECO...</a><br>VANS</br></div>
+                        <div class="Pro-cost">2.200.000</div>
+                        <span class="Pro-costUnit">₫</span>
+                    </div>
+                    </div>
+            </div>         
+        </div>  
+        <aside class="aside-right"></aside>
+    </div>
+        
+    <div class="new-blog container">
+        <div class="top-blog"><h2>LATEST VANS NEWS</h2></div>
+        <div class="img-blog">
+            <div class="ads1">
+                <img src ="https://bizweb.dktcdn.net/thumb/large/100/140/774/articles/desktop31.jpg?v=1695201345877">
+                <h6>20/9/2023: Đăng bởi: VANS Việt Nam</h6>
+                <p>CONCEPTS X VAULT BY VANS SMOKE AND MIRRORS</p> <br>Concepts và Vault VANS đã hợp tác 1 lần nữa</br>
+            </div>
+            <div class="ads2">
+                <img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/articles/desktop27.jpg?v=1695187684277">
+                <h6>20/09/2023 Đăng bởi: VANS Việt Nam</h6>
+                <p>GIỚI THIỆU MẪU HỢP TÁC KỸ NIỆM 3 NĂM THÀNH LẬP VANS STORE HARA JUKU</p> <br>VANS đang rục rịch phát hành bộ sưu tập</br>
+            </div>
+            <div class="ads3">
+                <img src="https://bizweb.dktcdn.net/thumb/large/100/140/774/articles/feature-x-vans-vault-old-skool-double-down-1-1.jpg?v=1695184710877">
+                <h6>20/09/2023 Đăng bởi: VANS Việt Nam</h6>
+                <p>FEATURE X VANS VAULT OLD SKOOL "DOUBLE DOWN"</p> <br>Hẳn là bạn vẫn nhớ lần hợp tác dầy quyến rũ của Feature và VANS với bộ sưu tập...</br>
+            </div>
+            
+        </div>
+    </div>    
+
+    <footer class="footer">
+        <div class="footer-top">
+            <form>
+                <h3>NHẬP EMAIL</h3>
+                <h5>Để nhận tin tức khuyến mãi từ cửa hàng của chúng tôi</h5>
+                <div class="form-mail">
+                    <div>
+                    <input type="email" placeholder="Nhập email của bạn">
+                    <button>Gửi ngay</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer-mid">
+            <div class="discription">
+                <div class="trai-nghiem">
+                    <h4>Trải Nghiệm VANS Store Ngay Tại Nhà</h4>
+                    <p>Hệ Thống VANS Online</p>
+                    <p>Địa chỉ: Hồ Chí Minh</p>
+                    <p>Hotline: 0866956907</p>
+                </div>
+                <div class="about-our">
+                    <h4>Về Chúng Tôi</h4>
+                    <div class="li-about-our">
+                        <a href="https://vansvietnam.com.vn/lich-su-cua-vans">About Us</a><br>
+                        <a href="https://vansvietnam.com.vn/size-giay-vans">Size Chart</a><br>
+                        <a href="https://vansvietnam.com.vn/danh-sach-cac-store-vans-chinh-thuc-tai-viet-nam-2020">Hệ Thống Cửa Hàng</a>
+                    </div>
+                </div>
+                <div class="chinh-sach">
+                    <h4>Chính Sách</h4>
+                    <div class="li-chinh-sach">
+                        <a href="https://vansvietnam.com.vn/chinh-sach">Chính sách thanh toán</a></li><br>
+                        <a href="https://vansvietnam.com.vn/chinh-sach-doi-hang-va-bao-hanh-tai-vans-viet-nam">Chính sách đổi trả</a></li><br>
+                        <a href="https://vansvietnam.com.vn/chinh-sach-doi-hang-va-bao-hanh-tai-vans-viet-nam">Chính sách bảo hành</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="ban-quyen">
+                <span>© Bản quyền thuộc về</span>
+                <span class="chu-do">VANS Việt Nam</span>
+                <span>| Cung cấp bởi VANS</span>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js" defer></script>
+    <script src="/thongtinsp.js" async></script>
+    </body>
+</html>
